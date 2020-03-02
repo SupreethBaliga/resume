@@ -1,0 +1,201 @@
+% \documentclass[10pt]{article}
+\documentclass{resume} % Use the custom resume.cls style
+\documentclass{article}
+\usepackage{fontawesome}
+% \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[a4paper,bottom = 0.3in,left = 0.5in,right = 0.5in,top = 0.25in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{textcomp}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{verbatim}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{pbox}
+
+%for color
+\usepackage[usenames, dvipsnames]{color}
+\definecolor{myblue}{RGB}{76,81,150}
+
+\newcommand{\xfilll}[2][1ex]{
+\dimen0=#2\advance\dimen0 by #1
+\leaders\hrule height \dimen0 depth -#1\hfill}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}
+\renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
+\renewcommand{\labelitemii}{$\cdot$}
+\pagenumbering{gobble}
+
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Supreeth Baliga} % Your name\emph{Robotics Club, IIT Kanpur}
+
+
+\address{Sophomore Year Undergraduate | Computer Science and Engineering | IIT Kanpur} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+91)7977675237 \\ \faEnvelope \hspace{0.1mm} supreethbaliga@gmail.com \\ \faGithub \hspace{0.1mm} \href{https://github.com/SupreethBaliga}{SupreethBaliga} \\ \faLinkedin \hspace{0.1mm} \href{https://www.linkedin.com/in/sbaliga27/}{sbaliga27}} % Your phone number and email
+
+\begin{document}
+
+\vspace{-20pt}
+\section*{{\LARGE \color{myblue}Education}\xfilll[0pt]{0.5pt}}
+\vspace{-17pt}
+\vspace{1.5mm}
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}{*}{\textbf{\huge Degree}} & \multirow{2}{*}{\textbf{\huge Institute}} & \multirow{2}{*}{\textbf{\huge Year}} & \multirow{2}{*}{\textbf{\huge CPI/Percent}} \\
+&&&\\
+\hline
+\multirow{2}{*}{\huge B.Tech., Computer Science and Engineering (Grad. 2022)} & \multirow{2}{*}{\huge Indian Institute of Technology, Kanpur} & \multirow{2}{*}{\huge Present} &\multirow{2}{*}{\huge  9.9/10.0}\\ &&&\\ \hline
+\multirow{2}{*}{\huge Class XII (HSC)} & \multirow{2}{*}{\huge RIMS International High School, Mumbai} & \multirow{2}{*}{\huge 2018} & \multirow{2}{*}{\huge 95.23\%} \\ &&&\\ \hline
+\multirow{2}{*}{\huge Class X (SSC)} & \multirow{2}{*}{\huge MEA'S High School} & \multirow{2}{*}{\huge 2016 }& \multirow{2}{*}{\huge 94.00 \%} \\ &&&\\
+\hline
+\end{tabular}%
+}
+\end{table}
+
+\vspace{-18pt}
+\section*{{\LARGE \color{myblue}Scholastic Achievements}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+
+\begin{itemize}[itemsep = -0.70 mm, leftmargin=*]
+\item \noindent Received \textbf{Academic Excellence Award} for the year 2018-19, IIT Kanpur \hfill {\ \small [Dec '18]}
+\item \noindent Secured an \textbf{All India Rank} of \textbf{661}, among \textbf{0.23 million} candidates in JEE Advanced 2018 \hfill {\ \small [June '18]}
+\item \noindent Secured an \textbf{All India Rank} of \textbf{1036}, among \textbf{1.2 million} candidates in JEE Mains 2018 \hfill {\ \small [April '18]}
+%\item \noindent Attended \textbf{Vijyoshi Camp}, mentored by Nobel Laureates, IISc Bangalore \hfill {\ \small [Dec '17]}
+% \item \noindent \textbf{Kishore Vaigyanik Protsahan Yojana}(KVPY) fellow with National Rank of \textbf{153} \hfill {\ \small [Mar '17]}
+% \item \noindent Rewarded with \textbf{National Talent Search Examination}(NTSE) scholarship by NCERT \hfill {\ \small [Sept '16]}
+% \item \noindent Secured \textbf{State Rank 1} in \textbf{National Talent Search Examination(Stage-1)}  \hfill {\ \small [Feb '16]}
+
+\end{itemize}
+\vspace{-12pt}
+\section*{{ \LARGE \color{myblue} Projects}\xfilll[0pt]{0.5pt}}
+\vspace{-11pt}
+\vspace{1.5mm}
+
+%\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+
+\href{https://github.com/SupreethBaliga/EasySale/}{\textbf{\large{EasySale Web Application}}} | Mentor: Prof. Sandeep Shukla \& Prof. T.V. Prabhakar \hfill {\ \small [May '19 - Aug '19]}
+\\[-0.05cm]
+\emph{IIT Kanpur Summer of Code} \hfill {\ \small \emph {}}
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -1 mm]
+	\item \noindent Spearheaded the implementation of a full-stack e-commerce web application from scratch with an aim to publish the businesses of small-scale manufacturers online.
+	\item \noindent Technologies used: \textbf{React, NodeJS, PostgreSQL, Nginx}
+	\end{itemize} 	
+	
+	
+\vspace{1mm}
+\textbf{\large{Capture The Swag!}}\hfill {\ \small [May '19 - Aug'19]}
+\\[-0.05cm]
+\emph{Project under Programming Club} \hfill {\ \small \emph {}}
+\\[-0.6cm]	
+	\begin{itemize}[itemsep = -1 mm]
+	\item \noindent Learnt and implemented various exploitative \textbf{cyber attacks}.
+    \item \noindent Took part in various CTFs to gain more experience in varying fields.
+    \end{itemize}
+
+
+\vspace{1mm}
+\href{https://github.com/SupreethBaliga/crypto-texts/}{\textbf{\large{Cryptographic Systems}}}\hfill {\ \small [May'19 - Aug'19]}
+\\[-0.05cm]
+\emph{Discussion Project under Programming Club} \hfill {\ \small \emph {}}
+\\[-0.6cm]	
+	\begin{itemize}[itemsep = -1 mm]
+	\item \noindent Studied the architecture of various cryptological systems like \textbf{PIR, Zero Knowledge proofs, SHA-3, Oblivious Transfer, Homomorphic Encryption} etc.
+\item \noindent Implemented some of the basic cipher algorithms and via the use of \textbf{cryptanalysis}, worked on breaking these algorithms.
+	\end{itemize}
+
+\vspace{1mm}
+\href{https://github.com/SupreethBaliga/Scribe}{\textbf{\large{SCRIBE (Blog App)}}}\hfill {\ \small [March '19]}
+\\[-0.05cm]
+\emph{Personal Project} \hfill {\ \small \emph {}}
+\\[-0.6cm]	
+	\begin{itemize}[itemsep = -1 mm]
+	\item \noindent Built a web-based blog application where users can share their ideas and open discussions.
+	\item \noindent Technologies used: \textbf{Angular, Firebase, PassportJS}.
+	\end{itemize}
+	
+
+
+	
+\vspace{-13pt}
+\section*{{\LARGE \color{myblue}Technical Skills}\xfilll[0pt]{0.5pt}}
+
+\vspace{-11pt}
+\vspace{0.5mm}
+
+\begin{itemize}[itemsep = -0.70 mm, leftmargin=*]
+
+\item \noindent \textbf{Proficient:} C++ (\textbf{OOP and Competitive Programming}), Python, JavaScript, TypeScript, Bash.
+\vspace{0.05mm}
+\item \noindent \textbf{Exposure:} Java, MATLAB, Golang, Rails.
+\vspace{0.05mm}
+\item \noindent \textbf{Web:} React (Proficient), Angular, Redux, NodeJS, Canvas.
+\vspace{0.05mm}
+\item \noindent \textbf{Utilities:} Docker, \LaTeX, MongoDB, PostgreSQL, SQLite, Nginx, Git, Shell Utilities etc.
+\end{itemize}	
+
+	
+\vspace{-12pt}
+\section*{{\LARGE \color{myblue}Relevant Courses Undertaken}\xfilll[0pt]{0.5pt}}
+\vspace{-13pt}
+\vspace{1.5mm}
+
+%\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+Data Structures and Algorithms   \hspace{0.5cm} Fundamentals of Programming  \hspace{0.5cm} Real Analysis \& Multivariable Calculus \textbf{A*}  \\
+Linear Algebra \& ODEs  \hspace{1.75cm} Computer Organisation \textit{\textbf{i}} \hspace{1.35cm}  Logic and Reasoning  \textit{\textbf{i}} \\
+Discrete Mathematics \hspace{2.1cm} Probability \& Statistics \textit{\textbf{i}} \hspace{1.39cm} Software Development \& Operations \textit{\textbf{i}} \\
+Ethical Hacking \textbf{\(\epsilon\)} \hspace{2.73cm} Introduction to Angular \textbf{\(\epsilon\)} \\
+\vspace{-1cm} \hfill A*: Exceptional Performance \hspace{0.4cm}  \( \epsilon \): Online Certified Course \hspace{0.4cm}\textit{\textbf{i}}: Current Semester \hspace{-0.9cm}
+
+\vspace{16pt}
+
+\section*{{\LARGE \color{myblue}Positions of Responsibility}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+
+%\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+
+\textbf{\large{Secretary}} | Programming Club, IIT Kanpur\hfill {\ \small [Apr '19 - Present]}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -2 mm]
+    \item \noindent Conducting events to increase the active participation of the students in programming related activities.
+    \item \noindent Assisting in organizing \textbf{competitions}, \textbf{lectures} and \textbf{workshops} to achieve the same.
+	\end{itemize}
+
+\vspace{-1mm}
+\textbf{\large{Project Mentor}} | ACA, CSE, IIT Kanpur \hfill {\ \small [Jan '20 - Present]}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -2 mm]
+\item \noindent Mentoring students in building a full stack web application from scratch.
+\item \noindent Teaching concepts and guiding them through various challenges in developing the same.
+	\end{itemize}
+
+\vspace{-1mm}
+\textbf{\large{Academic Mentor}} | Counselling Service, IIT Kanpur \hfill {\ \small [Apr '19 - Present]}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -1 mm]
+\item \noindent Guiding needy students in the course \textbf{Fundamentals of Programming}
+	\end{itemize}
+
+\vspace{-1mm}
+\textbf{\large{Student Guide}} | Counselling Service, IIT Kanpur \hfill {\ \small [Mar '19 - Present]}
+\\[-0.6cm]
+\begin{itemize}[itemsep = -0.75 mm]
+\item \noindent Guiding students through all activities of the institute and helping them as needed.
+	\end{itemize}
+
+
+
+
+\end{document}
